@@ -1,43 +1,9 @@
 {
   "version": 2,
-  "redirects": [
+  "rewrites": [
     {
       "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "see-full-video-here.vercel.app"
-        }
-      ],
-      "destination": "https://hoverinauguratethey.com/jgdw4dfgag?key=49e5ad0600ea904d71cfd6697348b298",
-      "permanent": false
-    },
-    {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "watch-the-full-video.vercel.app"
-        }
-      ],
-      "destination": "https://thewilddetail.com/qk7zamdi37?key=ad74faf5ff70d577c59a72dbfec92bb5",
-      "permanent": false
-    },
-    {
-      "source": "/(.*)",
-      "has": [
-        {
-          "type": "host",
-          "value": "click-here-to-see-full-video.vercel.app"
-        }
-      ],
-      "destination": "https://thewilddetail.com/kciuvfws1?key=1807878ce2ae0253f2e764ce075aee70",
-      "permanent": false
-    },
-    {
-      "source": "/(.*)",
-      "destination": "https://hoverinauguratethey.com/jgdw4dfgag?key=49e5ad0600ea904d71cfd6697348b298",
-      "permanent": false
+      "destination": "/index.html"
     }
   ]
 }

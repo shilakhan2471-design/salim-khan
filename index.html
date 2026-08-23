@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Continue</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+    main {
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 18px;
+    }
+    a:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Continue to the next page</h1>
+    <p>You are being redirected to an external advertising partner.</p>
+    <p><a id="continue-link" href="#" rel="nofollow sponsored">Continue</a></p>
+  </main>
+  <script>
+    const hostname = window.location.hostname;
+    // Default link (for see-full-video-here.vercel.app)
+    let targetLink = "https://hoverinauguratethey.com/jgdw4dfgag?key=49e5ad0600ea904d71cfd6697348b298"; 
+    
+    if (hostname.includes("watch-the-full-video")) {
+        targetLink = "https://thewilddetail.com/qk7zamdi37?key=ad74faf5ff70d577c59a72dbfec92bb5";
+    } else if (hostname.includes("click-here-to-see-full-video")) {
+        targetLink = "https://thewilddetail.com/kciuvfws1?key=1807878ce2ae0253f2e764ce075aee70";
+    }
+    
+    document.getElementById("continue-link").href = targetLink;
+  </script>
+</body>
+</html>
